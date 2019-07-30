@@ -1,7 +1,7 @@
 require('pry-byebug')
 require_relative('./models/property.rb')
 
-Property.delete_all()
+Property.delete_all() 
 
 property1 = Property.new(
   {
